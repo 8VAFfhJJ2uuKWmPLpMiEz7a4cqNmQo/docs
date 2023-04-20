@@ -9,7 +9,7 @@ ifdef::env-github[]
 endif::[]
 :imagesdir: imgs/
 
-== Aimbot
+== Aimbot -> Rage
 
 General mindset: +
 Features that inherently improve aimbot speed cannot be disabled, such as `Engine Prediction`, unless they cause unavoidable issues.
@@ -17,16 +17,12 @@ Features that inherently improve aimbot speed cannot be disabled, such as `Engin
 * Option removals (enabled no matter what):
 - `Engine Prediction`
 - `Fast Aimbot`
-- `Hitboxes`
 
 * Option renames:
 
-
-* Other:
-- Remove all reliance on bones, switch to hitboxes.
-
-
-
+* New options:
+- `Speed Hack` (moved from 'Misc' tab to 'Rage' tab)
+** Speed amount cap moves from 22 to 1000; extreme speed-hack values break the game in unexpected ways that can give you massive advantages over other players.
 
 == Chat
 - Move all chat related features into this new tab.
