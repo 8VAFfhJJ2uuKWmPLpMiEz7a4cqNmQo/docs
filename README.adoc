@@ -21,12 +21,22 @@ Features that inherently improve aimbot speed cannot be disabled, such as `Engin
 
 * Option renames:
 
+
+* Other:
+- Remove all reliance on bones, switch to hitboxes.
+
+
+
+
 == Chat
 - Move all chat related features into this new tab.
 
 == Config
 
-* `Scaled GUI` -> `Scale factor`
+* `Scaled GUI` -> `GUI Scaling`
 - A slider that goes from 100% up to 350% in increments of 25%.
+
+* `ESP Scaling`
+- Separate from `GUI Scaling` but the same in terms of settings.
 
 == Player -> Players
