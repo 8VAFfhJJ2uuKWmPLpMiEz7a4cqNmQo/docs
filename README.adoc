@@ -26,4 +26,7 @@ Features that inherently improve aimbot speed cannot be disabled, such as `Engin
 
 == Config
 
-* `Scaled GUI` -> `Scale factor`: 1, 1.25x, 1.5x, 1.75x, 2.00x
+* `Scaled GUI` -> `Scale factor`
+- A slider that goes from 100% up to 350% in increments of 25%.
+
+== Player -> Players
