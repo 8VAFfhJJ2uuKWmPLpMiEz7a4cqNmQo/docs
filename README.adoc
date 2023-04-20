@@ -9,16 +9,22 @@ ifdef::env-github[]
 endif::[]
 :imagesdir: imgs/
 
+== BUGS
+. `Rage` -> `NoLerp`
+- Still reliant on lerp; `sv_client_min_interp_ratio -1; cl_interp_ratio 0; cl_interp 0` to see the massive accuracy increase on players (don't do this in the cheat, it's improper).
+
 == Aimbot -> Rage
 
 General mindset: +
 Features that inherently improve aimbot speed cannot be disabled, such as `Engine Prediction`, unless they cause unavoidable issues.
 
-* Option removals (enabled no matter what):
-- `Engine Prediction`
-- `Fast Aimbot`
+* `Linear
 
-* Option renames:
+* Option removals:
+- `Engine Prediction` (always enabled)
+- `Fast Aimbot` (??)
+- `NoLerp` (remove for non-NPCs)
+
 
 * New options:
 - `Speed Hack` (moved from 'Misc' tab to 'Rage' tab)
