@@ -1,0 +1,29 @@
+:experimental:
+ifdef::env-github[]
+:icons:
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: imgs/
+
+== Aimbot
+
+General mindset: +
+Features that inherently improve aimbot speed cannot be disabled, such as `Engine Prediction`, unless they cause unavoidable issues.
+
+* Option removals (enabled no matter what):
+- `Engine Prediction`
+- `Fast Aimbot`
+- `Hitboxes`
+
+* Option renames:
+
+== Chat
+- Move all chat related features into this new tab.
+
+== Config
+
+* `Scaled GUI` -> `Scale factor`: 1, 1.25x, 1.5x, 1.75x, 2.00x
